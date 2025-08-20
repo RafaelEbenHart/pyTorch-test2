@@ -379,3 +379,8 @@ with torch.inference_mode():
     testPredModel2 = model2(XTestReg)
 plot_predictions(XTrainReg,yTrainReg,XTestReg.cpu().numpy(),yTestReg,testPredModel2)
 plt.show()
+
+## prediksi pada data yang linear dapat di lakukan oleh model ini,
+# namun prediksi untuk non linear memerlukan beberapa hal aktivasi seperti non-linear activation
+
+## 6 Non Linearity
